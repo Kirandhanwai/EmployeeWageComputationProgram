@@ -31,6 +31,7 @@ public class EmployeeWageComputation {
 		
 			default:
 				empHrs = 0;
+				break;
 	    }
 		totalemphrs += empHrs;
 		empwage = empHrs * Employee_wage_per_Hour;
